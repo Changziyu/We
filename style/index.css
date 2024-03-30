@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.base{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.base-body{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.base-head , .baes-btns{
+    text-align: center;
+}
+
+.baes-btn{
+    padding: 1rem 3rem;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #cf7688;
+    border-radius: 5px;
+    border: solid 2px #cf7688;
+    transition-duration: .3s;
+}
+
+.baes-btn:hover{background-color: #f6cdd5;}
